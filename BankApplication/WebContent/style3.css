@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+  background: url("images/img8.jpg") no-repeat center center fixed;
+  background-size: auto;
+  background-position: center ;
+  max-width:100%;
+}
+.first
+{
+  position:absolute;
+  top:30%;
+  left:30%;
+  transform: translate(-30%,-30%);
+  color:white;
+  padding:10px;
+}
+.first h1
+{
+  float:left
+  font-size: 40px;
+  font-family:Greycliff ;
+  color:#697026;
+  padding:5px;
+  box-sizing: border-box;
+}
+.textbox
+{
+  width:100%;
+  padding:8px;
+  padding-left: 0px;
+  border-bottom: 2px #bf7474 solid;
+}
+.textbox input{
+  border:none;
+  outline:none;
+  background: none;
+  color:white;
+  font-size:15px;
+  padding-left: 15px;
+  font-family: Comic Sans MS;
+}
+.pass
+{
+  margin-top:10px;
+  padding:5px;
+  float:right;
+  background-color: #215c56;
+  width:30%;
+  color:silver;
+  border:none;;
+  font-family: Comic Sans MS;
+  border-radius:15px;
+}
+.main-header
+{
+  text-align: justify;
+  font-style:italic;
+  color:#135573;
+  width:100%;
+  font-family: "Comic Sans MS";
+
+}
+.main-footer
+{
+  color:white;
+  font-size:12px;
+  font-family:Greycliff;
+  position:absolute;
+  top:90%;
+  left:15%
+}
+.signin
+{
+  position :relative;
+  width:80%;
+}
+.sigin a{
+  margin-top: 15px;
+  text-decoration: none;
+  color:#697026;
+  padding:12px;
+  position:absolute;
+  top:99%;
+  left:10%;
+  font-size:20px;
+  font-style: italic;
+  font-family: Greycliff ;
+}
+@media(max-width:600px)
+{
+	.first
+	{
+	width:100%;
+	}
+}
+

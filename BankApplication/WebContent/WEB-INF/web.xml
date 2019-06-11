@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app ><!--  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BankApplication</display-name>-->
+  <servlet>
+  <servlet-name>one</servlet-name>
+  <servlet-class>com.satya.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>one</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>two</servlet-name>
+  <servlet-class>com.satya.welcomeback</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>two</servlet-name>
+  <url-pattern>/welcomeback</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>three</servlet-name>
+  <servlet-class>com.satya.Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>three</servlet-name>
+  <url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  
+ <!--  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>-->
+</web-app>
+</element>

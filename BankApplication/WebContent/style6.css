@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+body
+{
+	font-size:169x;
+	font-family:"Comic Sans MS";
+	background-image:url("images/img12.png");
+	margin:0;
+	color:white;
+}
+.container
+{
+	margin:auto;
+	position:absolute;
+	top:15%;
+	left:30%;
+	padding:10px;
+}
+.container ol
+{
+	position:relative;
+	left:25%;
+	margin-bottom:20px;
+}
+.wrapper
+{
+	margin-top:7px;
+	display:grid;
+	grid-template-columns:30% 50%;
+}
+.wrapper input
+{
+	border:none;
+	padding-left:20px;
+	box-sizing:border-box;
+	background:none;
+	font-size:20px;
+	border-bottom:1px orange solid;
+	color:silver;
+}
+#main-header
+{  
+  background-color: none;
+  color:black;
+  margin:0;
+}
+.lagout
+{	position:absolute;
+	top:3%;
+	left:90%;
+	width:8%;
+	height:8%;
+	border-radius:50%;
+	margin:0;
+}
+.pass
+{	position:relative;
+	width:50%;
+	padding:5px;
+	margin:30px;
+	left:60px;
+	border-radius:10px;
+	font-size:20px;
+	
+}
+.pass:hover
+{
+	color:black;
+	background-color:#41adbb;
+}
+.pass:active
+{
+	margin:none;
+}

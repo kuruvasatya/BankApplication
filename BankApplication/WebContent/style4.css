@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+body{
+  background: url("images/img11.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center ;
+}
+.first
+{
+	max-width:30%;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+ 	position:absolute;
+ 	top:30%;
+  	left:45%;
+  	transform: translate(-30%,-30%);
+  	color:white;
+  	padding:30px;
+  	padding-top:20px;
+  	overflow:hidden;
+  
+}
+.first h1
+{
+ 
+  text-align:center;
+  font-size: 35px;
+  font-family:Comic Sans MS,cursive;
+  color:white;
+  padding:5px;
+  box-sizing: border-box;
+}
+.textbox
+{
+  padding:16px;
+  padding-left: 7%;
+  padding-bottom:10px;
+  border-bottom: 1px #746767 solid;
+  display:inline;
+}
+
+.textbox input{
+  border:none;
+  outline:none;
+  background: none;
+  color:#5fc27d;
+  font-size:15px;
+  padding:10px;
+  padding-left:28%;
+  font-family: Comic Sans MS;
+}
+.pass
+{
+  margin-top:25px;
+  padding:5px;
+  float:center;
+  background: #49839d;
+  width:100%;
+  color:silver;
+  border:none;
+  border-radius:15px;
+  font-family: Comic Sans MS;
+}
+.pass:hover
+{
+	border:1px #1c3039 solid;
+	border-radius:15px;
+}
+
+.main-footer
+{
+  color:white;
+  font-size:12px;
+  font-family:Greycliff;
+  position:absolute;
+  top:90%;
+  left:15%
+}
+.signin
+{
+  position :relative;
+  width:80%;
+}
+.sigin a{
+  margin-top: 15px;
+  text-decoration: none;
+  color:#697026;
+  padding:12px;
+  position:absolute;
+  top:99%;
+  left:10%;
+  font-size:20px;
+  font-style: italic;
+  font-family: Greycliff ;
+}
+a
+{
+	color:white;
+	font-family:Comic Sans MS;
+	font-style:italic;
+	text-decoration:none;
+}
+
